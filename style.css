@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+  }
+  
+  h2 {
+    color: #f5c600; /* Gold color for headings */
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Makes it responsive */
+    gap: 20px; /* Space between items */
+  }
+  
+  .about-text {
+    flex: 1;
+    min-width: 300px;
+    top: 500px;
+  }
+  
+  .about-text h2 {
+    font-size: 2.5em;
+  }
+  
+  .about-text p {
+    font-size: 1em;
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: center;
+    min-width: 300px;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    border-radius: 10px; /* Smooth edges */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Subtle shadow */
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #111; /* Slightly lighter black */
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    color: #f5c600; /* Gold text */
+    font-size: 14px;
+  }
+  
